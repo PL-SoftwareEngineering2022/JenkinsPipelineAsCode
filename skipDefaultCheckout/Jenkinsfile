@@ -1,5 +1,5 @@
 pipeline{
-    agent none
+    agent none // important because we do not want the script to checkout the code from SCM at the pipeline level, but rather at the stage level
     stages{
         stage('Build') {
             agent any
