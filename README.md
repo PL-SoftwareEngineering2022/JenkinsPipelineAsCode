@@ -5,3 +5,5 @@
 3. tools
 4. retries and timeouts
 5. errors and options
+6. timestamps
+7. skipDefaultCheckout
