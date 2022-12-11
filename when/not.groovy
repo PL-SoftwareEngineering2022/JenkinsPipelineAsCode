@@ -44,7 +44,7 @@ Finished: SUCCESS
 
 
 // in this case the 'equals' evaluation returns false because we have "Likimani" as the environmental variable while the 'equals' condition
-// is expecting Jeff. However, the 'not' condition inverts the false value into true, therefore the stage is executed.
+// is expecting Phyllis. However, the 'not' condition inverts the false value into true, therefore the stage is executed.
 pipeline {
     agent any
     environment{
