@@ -1,3 +1,4 @@
+// branch condition specifies that the stage will execute only when the build is building a certain Branch
 pipeline{
     agent any
     stages{

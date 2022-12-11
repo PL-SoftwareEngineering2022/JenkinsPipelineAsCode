@@ -1,3 +1,4 @@
+// this has skipDefaultCheckout under options and will skip checking out the code from the SCM
 pipeline{
     agent none // important because we do not want the script to checkout the code from SCM at the pipeline level, but rather at the stage level
     stages{
@@ -6,6 +7,58 @@ pipeline{
             options {
                 skipDefaultCheckout()
             }
+            steps {
+                echo 'Hello world'
+            }
+        }
+    }
+}
+
+// this will checkout the code from the SCM
+pipeline{
+    agent none 
+    stages{
+        stage('Build') {
+            agent any
+            /*options {
+                skipDefaultCheckout()
+            }*/
+            steps {
+                echo 'Hello world'
+            }
+        }
+    }
+}
+
+
+// alternatively, we can have the agents as any in the pipeline level, 
+//but this will not affect the pipeline as the options are still at the stage level.
+pipeline{
+    agent any 
+    stages{
+        stage('Build') {
+            agent any
+            options {
+                skipDefaultCheckout()
+            }
+            steps {
+                echo 'Hello world'
+            }
+        }
+    }
+}
+
+// using the options in the pipeline level:
+// because this is set at the pipeline level, it means no code will be checked out for all the stages
+pipeline{
+    agent any 
+    options {
+        skipDefaultCheckout()
+    }
+    stages{
+        stage('Build') {
+            agent any
+            
             steps {
                 echo 'Hello world'
             }
