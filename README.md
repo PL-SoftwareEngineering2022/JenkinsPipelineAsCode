@@ -24,7 +24,28 @@
 10. parallel
 11. failFast
 12. input
-13. 
+13. post
+    - always
+    - changed
+    - fixed
+    - regression
+    - aborted
+    - failure
+    - success
+    - unstable
+    - unsuccessful
+    - cleanup
+14. buildDiscarder
+15. disableConcurrentBuilds
+16. overrideIndexTriggers
+17. skipStagesAfterUnstable
+18. checkoutToSubdirectory
+19. newContainerPerStage
+20. parameters
+21. triggers
+    - cron
+    - pollSCM
+    - upstream
 
 #### References:
 1. https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#string-interpolation
@@ -36,6 +57,5 @@
 7. https://plugins.jenkins.io/file-parameters/
 8. https://github.com/jenkinsci/pipeline-input-step-plugin/blob/master/docs/fileParameters.md
 9. https://www.jenkins.io/doc/pipeline/steps/file-parameters/
-10. 
-
-
+10. https://www.jenkins.io/doc/book/pipeline/syntax/#post-conditions
+11. 
