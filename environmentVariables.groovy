@@ -1,5 +1,5 @@
 // pipeline > stage > environment Credentials
-// these are not global variables provided by Jenkins but our own environmental variables specified in the script
+// these are not global variables provided by Jenkins but our own environment variables specified in the script
 pipeline {
     agent any
     environment{
@@ -242,7 +242,7 @@ name3 Jamie
 Finished: SUCCESS
 
 
-// Jenkins also has some inbuilt environmenetal variables that are available for use in our scripts as needed:
+// Jenkins also has some inbuilt environment variables that are available for use in our scripts as needed:
 pipeline {
     agent any
     environment{

@@ -17,6 +17,10 @@
     - anyOf
     - branch
     - buildingTag and Tag
+    - changelog
+    - changeRequest
+    - changeset
+    - beforeAgent
 
 #### References:
 1. https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#string-interpolation

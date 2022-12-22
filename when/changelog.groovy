@@ -1,4 +1,4 @@
-// changelog condition only allows the stage to execute when the commit message for commit fulfills a certain regular expression.
+// changelog condition only allows the stage to execute when the commit message fulfills a certain regular expression.
 // mulitibranch pipeline
 
 // git commit -m "prefix some_text suffix"
