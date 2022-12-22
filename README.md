@@ -21,6 +21,10 @@
     - changeRequest
     - changeset
     - beforeAgent
+10. parallel
+11. failFast
+12. input
+13. 
 
 #### References:
 1. https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#string-interpolation
@@ -29,6 +33,9 @@
 4. https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/
 5. https://issues.jenkins.io/browse/JENKINS-48556?focusedCommentId=324614&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel
 6. https://plugins.jenkins.io/timestamper
-7. 
+7. https://plugins.jenkins.io/file-parameters/
+8. https://github.com/jenkinsci/pipeline-input-step-plugin/blob/master/docs/fileParameters.md
+9. https://www.jenkins.io/doc/pipeline/steps/file-parameters/
+10. 
 
 
