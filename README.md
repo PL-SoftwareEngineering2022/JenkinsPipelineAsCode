@@ -58,4 +58,6 @@
 8. https://github.com/jenkinsci/pipeline-input-step-plugin/blob/master/docs/fileParameters.md
 9. https://www.jenkins.io/doc/pipeline/steps/file-parameters/
 10. https://www.jenkins.io/doc/book/pipeline/syntax/#post-conditions
-11. 
+11. https://www.jenkins.io/doc/book/pipeline/syntax/#cron-syntax
+12. https://github.com/jenkinsci/jenkins/blob/master/core/src/main/resources/hudson/triggers/TimerTrigger/help-spec.jelly
+13. 
